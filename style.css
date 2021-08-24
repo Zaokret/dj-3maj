@@ -1,0 +1,55 @@
+html {
+  font-family: 'Noto Sans JP', sans-serif;;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Noto Sans HK', sans-serif;;
+}
+
+nav a {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+body {
+  text-align: center;
+}
+
+main {
+  padding-top: 30px;
+}
+
+img {
+  width: 300px;
+}
+
+.mix-image {
+  display: block;
+  margin: auto;
+  box-shadow: 11px 11px 13px 3px #acacac;
+  border-radius: 20px;
+}
+
+figcaption {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+ol {
+  text-align: center;
+  list-style-position: inside;
+  display: inline-block;
+       margin: 0 auto;
+}
+
+ol li {
+  text-align: left;
+}
