@@ -44,18 +44,22 @@ figcaption {
   margin-bottom: 5px;
 }
 
-ol {
+ol, ul {
   text-align: center;
   list-style-position: inside;
   display: inline-block;
        margin: 0 auto;
 }
 
-ol li {
+ol li, ul li {
   text-align: left;
   font-size: 14px;
 }
 
 footer {
   margin-top: 30px;
+}
+
+.about {
+  padding: 0 15%;
 }
