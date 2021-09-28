@@ -1,5 +1,7 @@
 html {
-  font-family: 'Noto Sans JP', sans-serif;;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -21,21 +23,53 @@ a:visited {
 
 body {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-main {
+header {
+  z-index: 100;
+  top: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: rgb(240, 240, 240);
 }
 
+h2{ 
+  margin-top: 0;
+}
 
+.title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  display: inline-block;
+}
 
 img {
-  width: 600px;
+  
+  width: 330px;
+}
+
+article {
+  padding-top: 30px;
+  padding-bottom: 35px;
+  
+  
+}
+
+article:not(:last-child) {
+  border-bottom: 10px dotted rgb(240, 240, 240);
 }
 
 .mix-image {
   display: block;
   margin: auto;
-  box-shadow: 11px 11px 13px 3px #acacac;
+  margin-top: 15px;
   border-radius: 20px;
 }
 
@@ -57,9 +91,20 @@ ol li, ul li {
 }
 
 footer {
-  margin-top: 30px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-top: 0;
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .about {
   padding: 0 15%;
+}
+
+p {
+  margin-bottom: 0;
 }
