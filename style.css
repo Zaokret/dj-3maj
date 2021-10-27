@@ -73,6 +73,13 @@ article:not(:last-child) {
   border-radius: 20px;
 }
 
+iframe {
+  margin-top: 15px;
+  border-radius: 20px;
+  width: 330px;
+  height: 330px;
+}
+
 figcaption {
   font-size: 12px;
   margin-bottom: 5px;
