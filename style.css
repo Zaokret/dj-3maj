@@ -108,3 +108,15 @@ footer nav {
 p {
   margin-bottom: 0;
 }
+
+details {
+  height: auto;
+  overflow: hidden;
+  transition: max-height ease-in-out;
+  transition-duration: 0.3s;
+}
+
+summary {
+    cursor: pointer;
+    margin-bottom: 15px;
+}
