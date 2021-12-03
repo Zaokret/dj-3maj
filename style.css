@@ -127,3 +127,14 @@ summary {
     cursor: pointer;
     margin-bottom: 15px;
 }
+
+.album-desc {
+  max-width: 330px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.bandcamp-embed {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
