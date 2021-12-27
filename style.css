@@ -138,3 +138,82 @@ summary {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
+
+#meaning-crisis {
+  font-family: 'Alice', serif;
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: url('./assets/images/meaning\ crisis\ album\ art\ blured.jpg');
+  background-size: cover;
+  min-width:100vw;
+  min-height: 100vh;
+}
+
+#wrapper {
+  margin: 20px;
+}
+
+#meaning-crisis img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: block;
+  
+}
+
+#meaning-crisis a {
+  color: #ca5d4f;
+  font-weight: bold;
+  display: block;
+  padding: 8px 0px;
+  background: #444a46;
+}
+
+#meaning-crisis a:not(:last-child) {
+  border-bottom: 1px solid white;
+}
+
+#meaning-crisis a:first-of-type {
+  padding-top: 10px;
+
+}
+
+
+#meaning-crisis .desc {
+  background: white;
+    width: 330px;
+    padding: 10px 0px;
+    color: black;
+    font-size: 18px;
+}
+
+#meaning-crisis article {
+  width:min-content;
+  width: 330px;
+  padding-top:0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+#meaning-crisis h1 {
+}
+
+#background-image {
+  
+}
+
+#meaning-crisis #website {
+  display: inline;
+  background: white;
+
+}
+
+#meaning-crisis .footer {
+  padding: 15px 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
